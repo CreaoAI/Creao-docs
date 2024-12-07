@@ -1,41 +1,44 @@
-# Website
+# Editing and Deploying the Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Follow these instructions to edit and deploy the documentation website built using [Docusaurus](https://docusaurus.io/).
 
-### Installation
+## Steps to Deploy
 
-```
-$ yarn
-```
+### 1. Clone the Repository
 
-### Local Development
+First, clone the repository to your local machine:
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+$ git clone git@github.com:CreaoAI/Creao-docs.git
+$ cd Creao-docs
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### 2. Install Dependencies
 
-### Deployment
+Install docusaurus using the following command:
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+$ npm i
 ```
 
-Not using SSH:
+### 3. Run the Development Server
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+$ npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### 4. Make Changes and Commit
+
+Make the changes you want to the documentation and commit them to the repository. Be sure to push your changes to the `main` branch so that the documentation is updated for future edits.
+
+### 5. Deploy the Website
+
+To deploy the website with the changes you made, run the following command:
+
+```bash
+$ npm run deploy
+```
+
+This will build the website and deploy it to the `gh-pages` branch.
+
+Now your changes should be live on the website!
