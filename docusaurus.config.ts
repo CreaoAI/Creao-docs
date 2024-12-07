@@ -39,6 +39,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
         },
         blog: false,
         theme: {
@@ -57,7 +58,7 @@ const config: Config = {
         alt: "Creao Logo",
         src: "img/creao_black_logo.svg",
         width: 65,
-        href: "/docs/intro",
+        href: "/",
         target: "_self",
       },
       items: [
