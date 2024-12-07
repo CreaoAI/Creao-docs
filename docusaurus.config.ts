@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "img/creao_black_logo.svg",
 
   // Set the production url of your site here
-  url: "https://creao.github.io",
+  url: "https://creaoai.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
