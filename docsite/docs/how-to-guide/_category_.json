@@ -1,0 +1,8 @@
+{
+  "label": "How-To Guide ",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Detailed explanations of platform features and capabilities. For a quick setup, visit the 'Quick Start' section. If you want to understand the platform in depth, this is the section for you."
+  }
+}
