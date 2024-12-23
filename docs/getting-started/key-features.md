@@ -37,6 +37,15 @@ Understanding and refining workflows is key to unlocking their full potential. C
   - Gain clarity on how decisions were made at each stage.
   - Understand the agent's behavior for different scenarios.
 
+- **Agent Run Info**: Examine detailed timing and execution metrics for each agent run.
+
+  - **Runtime Analysis**: Track precise execution durations for each round.
+  - **Execution Timeline**: Monitor start and end timestamps of each phase.
+  - **Input Details**: Review the exact inputs provided to the agent.
+  - **Output Results**: See the agent's responses and final outputs.
+
+  ![Agent Run Info](img/agent_run_info.png)
+
 ## Instant Deployment
 
 Coming soon! 👀

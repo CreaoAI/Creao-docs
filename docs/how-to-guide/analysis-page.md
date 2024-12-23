@@ -36,6 +36,27 @@ A temporal view of agent performance:
 - **X-axis**: Optimization rounds/iterations
 - **Y-axis**: Performance score
 
+### 3. 📋 Agent Run Information
+
+![Agent Run Info](img/analysis_page/agent_run_info.gif)
+
+Detailed information about each agent run step:
+
+- **Timing Information**:
+
+  - Start Time
+  - End Time
+  - Duration
+
+- **Step Details**:
+  - Step Name (e.g., ReviewAndRevise)
+  - Input Arguments
+  - Result/Response
+
+Click on any row in the data table to view its complete run information in the details panel.
+
+> 💡 **Tip**: Analyze the timing and responses for each step to identify performance bottlenecks and areas for improvement.
+
 ## Using the Analysis Tools
 
 1. **Identify Patterns**: Use the Experience Tree to spot which optimization paths yield the best results

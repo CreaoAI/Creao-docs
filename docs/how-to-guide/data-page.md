@@ -32,4 +32,16 @@ The data table is the main feature on this page, and it is organized into the fo
 - The output columns will be empty because the agents haven't been generated yet.
 - Once you've created an agent, the output columns will be populated with the agent's responses.
 
+### 🔍 Viewing Run Details
+
+![Right Click to View Run Details](img/right_click.gif)
+
+- Right click on any row to view detailed information about the agent run for that specific data point
+- For the default agent, you'll see basic execution information
+- With multiple agent iterations, you can explore:
+  - Detailed runtime analysis across different rounds
+  - Performance comparisons between agent versions
+  - Step-by-step execution timeline
+  - Complete input and output logs
+
 > 💡 **Next Step**: To begin generating responses and filling the output columns, let's head over to the **Settings** tab. There, you can configure a new agent to start processing the data.
