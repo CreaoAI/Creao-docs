@@ -32,6 +32,24 @@ The Agent page consists of the following:
    - **Operator**: Technical details about the agent's operators
      ![Agent Operator Tab](img/agent_page/operator-tab.png)
 
+     The Operator tab provides comprehensive information about the modular components (operators) that enable agents to perform specific tasks within workflows. Each operator is documented with:
+
+     - **Description**: A brief summary of the operator's purpose and functionality
+     - **Interface**: Expected input parameters, output format, and data types
+     - **Purpose**: How the operator contributes to the workflow
+
+     Example operator format:
+
+     ```plaintext
+     cot_generate(task: str, problem: str) -> dict with key 'thought' of type str, 'answer' of type str
+     ```
+
+     Operators enhance the system by:
+
+     - Executing specialized tasks
+     - Enabling customization for unique requirements
+     - Supporting scalability through modular components
+
 ### ⚪️ Agent Status
 
 - **🔄 PENDING**: Agent is currently being generated
