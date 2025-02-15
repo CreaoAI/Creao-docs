@@ -6,46 +6,37 @@ sidebar_position: 4
 
 Creao AI helps you create, optimize, and deploy agentic workflows autonomously. Below, we highlight the key features that enable you to do just that.
 
-## Workflow Creation
+## Tools & Resources 🛠️
+
+Creao AI provides a robust tools and resources registration system that defines the execution environment for the Meta Agent:
+
+- **Tools Registration**: Register custom tools and APIs that agents can utilize
+- **Resources Registration**: Configure resources like databases and external services
+- **Mock API Support**: This feature will allow you to simulate API interactions, enabling you to test and develop your workflows without needing live endpoints if you dont have any tools and resources available. It is currently under development and will be available soon. Stay tuned for updates! 🔄
+
+Together, these components create a flexible environment where agents can effectively execute their workflows. The mock API capability ensures you can start building immediately, even before integrating your production tools.
+
+## Workflow Creation 🧩
 
 - **Effortless Workflow Setup**: Upload a dataset, provide a prompt, and let the Meta Agent handle the complexities of generating and executing agents.
 - **Responsive to Changes**: Update your workflow any time to integrate new data, accommodate shifting tasks, and meet fresh requirements, from creation to deployment.
 
-## Agent Observability
+## Agent Observability 👀
 
 Understanding and refining workflows is key to unlocking their full potential. Creao AI equips you with the tools for visibility into every facet of the process.
 
-- **Agent Details**: Take a deeper look into the agent's attributes, structure, and code.
+### Agent Generation Process
 
-  - Access essential metrics such as scores, modifications, and evaluation type.
-  - Inspect the agent’s code and visualize its structure.
-  - Explore the operators driving your agent’s capabilities.
+When agents are generating, our users will be able to see a modal pop up showing the generation process and detailed plan. This modal provides real-time insights into the steps being taken by the Meta Agent to create the workflow.
 
-  ![Agent Preview](img/agent_preview.png)
+### Evaluation Score
 
-- **Agent Planning Analysis Tree**: A detailed evolution tree of the agent generation process.
+Additionally, there's an evaluation score to benchmark the Meta Agent's performance on executing the task. This score helps you understand the effectiveness and efficiency of the generated agents, allowing for continuous improvement and optimization.
 
-  - **Node Insights**: View modifications made to the agent and its performance scores.
-  - **Edge Insights**: Follow the lineage between parent and child agents—green edges for progress, red for setbacks.
-  - **Performance Graph**: Track agent performance across iterations.
+## Instant Deployment 🚀
 
-  ![Agent Planning Analysis Tree](img/agent_tree.png)
+Once the agent has a "ready for deployment" status, users will be able to click **Deploy** in the modal. This action will deploy the agent, making it ready for use. After deployment, users can click **Invoke** to utilize the agent as an API. This feature allows seamless integration of the agent into your existing systems, enabling automated task execution through API calls.
 
-- **Agent Run Replay**: Replay any agent's execution to dissect its behavior step-by-step.
+## Self-Improvement 🤖
 
-  - Review final outputs and AI responses
-  - Gain clarity on how decisions were made at each stage.
-  - Understand the agent's behavior for different scenarios.
-
-- **Agent Run Info**: Examine detailed timing and execution metrics for each agent run.
-
-  - **Runtime Analysis**: Track precise execution durations for each round.
-  - **Execution Timeline**: Monitor start and end timestamps of each phase.
-  - **Input Details**: Review the exact inputs provided to the agent.
-  - **Output Results**: See the agent's responses and final outputs.
-
-  ![Agent Run Info](img/agent_run_info.png)
-
-## Instant Deployment
-
-Coming soon! 👀
+The Meta Agent is designed to continuously improve itself. It learns from previous generations and adjusts its approach to achieve better results. This self-improvement process allows the Meta Agent to adapt to new situations and improve over time, ensuring it always performs at its best.

@@ -2,205 +2,82 @@
 sidebar_position: 3
 ---
 
-# 🛠️ Settings Tab
+# 🛠️ Settings
 
-## 🌟 Introduction - Understanding and Using Input & Judge Prompts in Creao AI
+## 🌟 Introduction
 
-Input and Judge prompts are the foundation of Creao AI's intelligent workflow system. They work together to create a powerful feedback loop that enables continuous improvement of your AI agents.
+Configure your AI agent effectively by following these steps:
 
-## Core Concepts
+1. **Provide a detailed prompt** for generating output data from your input dataset.
+2. **Define clear evaluation criteria** for judging the quality of generated outputs.
+3. **Select the relevant input columns** for your agent.
 
-### What are Input & Judge Promts?
+## Task Description
 
-- **Input Prompt**: A template that instructs the AI how to generate outputs from your data
-- **Judge Prompt**: A template that defines how to evaluate the quality of generated outputs
+Describe the task that the agent needs to accomplish. This should be a clear and concise statement of the objective.
 
-Think of them as:
-
-- Input Prompt = "Here's how to do the task"
-- Judge Prompt = "Here's how to evaluate if it was done well"
-
-# 🔄 How Input & Judge Prompts Work
-
-## Understanding the Flow
-
-![understanding-the-flow.png](img/understanding-the-flow.png)
-
-## Writing Effective Prompts 📝
-
-### Input Prompt
+**Example:**
 
 ```
-Based on {{ product_name }} and {{ price }},
-create a marketing tagline that:
-1. Highlights key features
-2. Matches price point
-3. Appeals to target market
-
+Based on user task, get a list of properties based on location, choose the top 2 most expensive ones, and send the result via email to show the address, price, and highlighted image.
 ```
 
-Key Points:
+## Input Prompt Template
 
-- Clear instructions
-- Specific requirements
-- Uses data variables
-- Defined structure
+Detail how the agent should generate output data from the input dataset. Use specific instructions and include any necessary variables.
 
-### Judge Prompt
+**Example:**
 
 ```
-Rate this tagline {{ prediction }} on:
-1. Accuracy (matches {{ product_name }})
-2. Value (reflects {{ price }})
-3. Appeal (1-10 score)
-
-Provide score and brief feedback.
-
+Find the top 2 most expensive houses in Palo Alto, CA, and send the result to email charisliao@berkeley.edu. Ensure the email is sent, and the image is included as a circle thumbnail, not a link.
 ```
 
-Key Points:
+## Reference Column
 
-- Clear criteria
-- Numerical scoring
-- Uses prediction
-- Structured feedback
+Select the data column that will be used as the reference for evaluation. This helps in assessing the accuracy and relevance of the generated outputs.
 
-## Creating Effective Prompts 📝
-
-### Input Prompt Structure
+**Example:**
 
 ```
-1. Context: What data to use
-2. Task: What to create
-3. Requirements: Specific formats or rules
-4. Variables: Your data columns in {{ }}
-
+price
 ```
 
-### Judge Prompt Structure
+## Result Format
+
+Define the standard options for output data. If there are no restrictions, this can be left blank. Ensure that the format aligns with the expected output.
+
+**Example:**
 
 ```
-1. Reference: What to compare against
-2. Criteria: How to evaluate
-3. Scoring: Clear scoring guidelines
-4. Format: Required output format
-
+3750000
 ```
 
-## Common Use Cases and Examples💡
+Since our example is a price, the result format is a number.
 
-### 1. Content Generation
+## Tools
 
-**Input Prompt:**
+Select the tools that can be invoked when the multi-agent is running. This allows for additional functionalities to be integrated into the agent's workflow.
 
-```
-Create product content using:
-Product name: {{ product_name }}
-Features: {{ features }}
-Price: {{ price }}
-
-Generate a compelling description focusing on value proposition.
+**Example:**
 
 ```
-
-**Judge Prompt:**
-
-```
-Evaluate this content {{ prediction }} based on:
-1. Accuracy (matches {{ features }})
-2. Value communication (relative to {{ price }})
-3. Engagement
-
-Rate each aspect 1-10.
-
+find_properties_list, send_email
 ```
 
-### 2. Multiple Choice Questions
+## Knowledge
 
-**Input Prompt:**
-
-```
-Question: {{ question }}
-
-Options:
-0) {{ choices[0] }}
-1) {{ choices[1] }}
-2) {{ choices[2] }}
-3) {{ choices[3] }}
-
-Select the correct answer number (0-3).
-
-```
-
-**Judge Prompt:**
-
-```
-Reference: {{ answer }}
-Prediction: {{ prediction }}
-
-Score 1.0 if correct, 0.0 if incorrect.
-
-```
-
-### 3. Analysis Tasks
-
-**Input Prompt:**
-
-```
-Analyze this data:
-Revenue: {{ revenue }}
-Costs: {{ costs }}
-Growth: {{ growth_rate }}
-
-Provide key insights and recommendations.
-
-```
-
-**Judge Prompt:**
-
-```
-Rate analysis {{ prediction }} on:
-1. Calculation accuracy
-2. Insight depth
-3. Recommendation quality
-
-Score each 1-5 with explanation.
-
-```
-
-# Quick Guide to Writing Effective Prompts
+Select the knowledge resources that can be accessed when the multi-agent is running. This ensures the agent has the necessary information to perform its tasks effectively.
 
 ## Best Practices 🎯
 
-### Input Prompts
-
-1. **Be Clear & Specific**
-   - State what you want
-   - Define output format
-   - Use examples when needed
-2. **Use Data Smart**
-   - Use `{{ column_name }}` for your data
-   - Check your variables exist
-   - Keep naming consistent
-
-### Judge Prompts
-
-1. **Keep Scoring Simple**
-   - Binary: Use 0 or 1
-   - Scale: Use 1-5 or 1-10
-   - Define what each score means
-2. **Make Feedback Useful**
-   - Clear scoring criteria
-   - Objective evaluation
-   - Consistent standards
+- **Be Clear & Specific**: Clearly state what you want the agent to accomplish.
+- **Use Data Smartly**: Ensure all necessary variables are included and correctly formatted.
+- **Keep Scoring Simple**: Use straightforward evaluation criteria to assess output quality.
 
 ## Common Issues & Quick Fixes 🔧
 
-1. **Bad Outputs?**
-   → Add example format in prompt
-2. **Poor Scoring?**
-   → Use number scores instead of words
-3. **Missing Info?**
-   → Check all needed variables are in prompt
+1. **Bad Outputs?** → Add example formats in the prompt.
+2. **Poor Scoring?** → Use numerical scores instead of words.
+3. **Missing Info?** → Ensure all needed variables are included in the prompt.
 
-Need help? Check our example templates or ask support!
+Need help? Check our example templates or contact support!

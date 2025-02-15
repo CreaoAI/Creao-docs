@@ -4,13 +4,7 @@ sidebar_position: 2
 
 # What is Creao AI?
 
-Creao AI is designed to automate and optimize workflow creation using
-intelligent, adaptive agents. It eliminates the need for extensive
-manual setup and enables scalable, efficient automation of complex
-tasks. Through its **Meta Agent**, Creao AI leverages advanced
-techniques like **auto-planning** and **iterative optimization** to
-autonomously generate, refine, and deploy workflows, reducing human
-intervention and increasing adaptability.
+Creao AI is an AI agentic infrastructure company designed to automate and optimize workflow creation using intelligent, adaptive agents. We prides ourselves on providing **API mocking for toolkits**, enabling seamless integration and testing. Creao AI eliminates the need for extensive manual setup and enables scalable, efficient automation of complex tasks. Through its **Meta Agent**, Creao AI leverages advanced techniques like **auto-planning** and **iterative optimization** to autonomously generate, refine, and deploy workflows in a matter of minutes, reducing human intervention and increasing adaptability.
 
 ## What is Auto-Planning? 🧭
 
