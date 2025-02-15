@@ -15,7 +15,7 @@ optimize, and deploy intelligent workflows quickly and easily.
 ## How Creao AI Transforms Your Workflow
 
 - **✨ Smart Automation with Proactive Planning**: Say goodbye to manual configurations! Our Meta Agent's auto-planning capabilities handle the heavy lifting, letting you concentrate on the bigger picture.
-- **📈 Self-Improving Workflows**: Your workflows continually evolve based on real-time feedback, ensuring they adapt and consistently perform at their best.
+- **📈 Self-Improving Workflows**: Your workflows continually evolve using methods like reinforcement learning, mind evolution, and long-term memory. These methods ensure that workflows adapt in real-time and consistently perform at their best.
 - **🔍 Transparent Insights**: You get to see exactly what's happening every step of the way, enabling you to make informed, data-driven decisions with confidence.
 
 ## What You'll Learn

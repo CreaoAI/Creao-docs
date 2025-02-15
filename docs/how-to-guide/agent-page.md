@@ -6,69 +6,52 @@ sidebar_position: 4
 
 The **Agent** tab is where you can manage and monitor your AI agents. This page allows you to generate new agents, view their details, and track their performance.
 
-![Agent Page](img/agent_page/agent-page.png)
-
 The Agent page consists of the following:
 
 1. 📋 **Agent Cards**
    - Shows agent name, description, and creation time
    - Status indicators:
-     - 🔄 Arrow: Agent is being generated
-     - ⚙️ Cog: Agent is in reflection mode. Can be viewed, but not completed.
-     - ⚠️ Red triangle: Invalid agent
-     - No icon: Agent is ready to use!
+     - 🔴 Failed: Agent has encountered an error
+     - 🔄 Generating: Agent is being generated
+     - 🟢 Ready for Deployment: Agent is ready to be deployed
+     - 🚀 Deployed: Agent is currently deployed and operational
 2. 📊 **Agent Details Sidebar**
-   The sidebar opens when clicking an agent card and has four tabs:
+   The sidebar opens when clicking an agent card and has two tabs:
 
-   - **General**: Basic information about the agent
-     ![Agent General Tab](img/agent_page/general-tab.png)
+   - **General**: Displays basic information about the agent, including:
 
-   - **Code**: The agent's Python code
-     ![Agent Code Tab](img/agent_page/code-tab.png)
+     - Agent Name
+     - Auto-generated status
+     - Score
+     - Tools used
+     - Reference Column
+     - Result Enum
+     - Input Prompt Template
 
-   - **Preview**: Visual representation of the agent's workflow
-     ![Agent Preview Tab](img/agent_page/preview-tab.png)
-
-   - **Operator**: Technical details about the agent's operators
-     ![Agent Operator Tab](img/agent_page/operator-tab.png)
-
-     The Operator tab provides comprehensive information about the modular components (operators) that enable agents to perform specific tasks within workflows. Each operator is documented with:
-
-     - **Description**: A brief summary of the operator's purpose and functionality
-     - **Interface**: Expected input parameters, output format, and data types
-     - **Purpose**: How the operator contributes to the workflow
-
-     Example operator format:
-
-     ```plaintext
-     cot_generate(task: str, problem: str) -> dict with key 'thought' of type str, 'answer' of type str
-     ```
-
-     Operators enhance the system by:
-
-     - Executing specialized tasks
-     - Enabling customization for unique requirements
-     - Supporting scalability through modular components
+   - **Config**: This is the configuration that our meta agent generated, kind of like a "plan". It allows you to adjust parameters and settings as needed.
 
 ### ⚪️ Agent Status
 
-- **🔄 PENDING**: Agent is currently being generated
-- **⚙️ REFLECTION**: Agent is analyzing and optimizing its approach
-- **🟢 ACTIVE**: Agent is fully functional and ready to use
-- **🔴 INACTIVE**: Agent is invalid or has encountered an error
+- **🔄 GENERATING**: Agent is currently being generated
+- **🔄 UPDATED**: Agent has been updated
+- **⏹️ STOPPED**: Agent has been stopped
+- **📊 SCORING**: Agent is being scored
+- **🟢 READY FOR DEPLOYMENT**: Agent is ready to be deployed
+- **🚀 DEPLOYED**: Agent is currently deployed and operational
+- **🔴 FAILED**: Agent has encountered an error
 
 ### 💫 How It Works
 
 1. **Generating Agents**
 
-   - Click the "Generate Next Agent" button to create a new agent
+   - Click the "Generate Agent" button to create a new agent
    - The system will automatically optimize based on previous agents
-   - New agents will appear with a "PENDING" status while being generated
+   - New agents will appear with a "🔄 GENERATING" status while being generated
 
 2. **Managing Agents**
-   - When an agent has finished generating, click on it to view more details
-   - Download complete agent data using the Archive button
-   - View detailed analysis through the Analysis button
+   - When an agent is in the "Ready for Deployment" state, click on it to view the modal displaying the generation process and execution plan.
+   - Users can click the "Deploy" button in the modal to deploy the agent.
+   - Once the agent is deployed, clicking on the agent card will show the agent details, and users will be able to invoke it.
 
 > 💡 **Note**: Make sure you've configured the Input and Judge Prompt Templates in the Settings tab before generating agents first. These templates can be updated at any time.
 
@@ -76,8 +59,6 @@ The Agent page consists of the following:
 
 Each agent includes performance metrics:
 
-- Judge scores for evaluating effectiveness
-- Parent-child relationships between agents
-- Modification history showing improvements
+- Judge scores for evaluating effectiveness, displayed in the modal as well as on the agent card
 
 > 💡 **Next Step**: Let's look at even more metrics by heading to the Analysis tab

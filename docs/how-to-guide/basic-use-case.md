@@ -6,29 +6,27 @@ sidebar_position: 7
 
 ## Example Project
 
-### Project Name: College Physics Test Generator
+### Project Name: Real Estate Highlighted Property Email Blast
 
 ### Project Description:
 
-This project uses a dataset of college-level physics questions and answers to generate automated test question prompts. The goal is to assist educators in creating customized physics tests.
+This project sends highlighted property information based on location to potential clients. The goal is to assist real estate agents in reaching out to clients with the most valuable property listings.
 
 ## Workflow Overview
 
 1. **Name Your Project:**  
-   Start by naming your project (e.g., **College Physics Test Generator**).
+   Start by naming your project (e.g., **Real Estate Highlighted Property Email Blast**).
 
 2. **Add a Project Description:**  
-   Write a brief description of what your project is about (e.g., "Automates the generation of physics test questions").
+   Write a brief description of what your project is about (e.g., "Sends highlighted property information based on location to potential clients").
 
 3. **Upload Your Dataset:**  
    Upload a dataset in **JSONL** format. Each line should be a valid JSON object containing business-related input and output data. Example:
 
    ```json
-   {"question": "What is Newton's second law?", "answer": "F = ma"}
-   {"prompt": "Define conservation of energy.", "completion": "Energy cannot be created or destroyed, only transformed."}
+   {"location": "Palo Alto, CA", "price": 3750000, "image": "image_url"}
+   {"location": "San Francisco, CA", "price": 4500000, "image": "image_url"}
    ```
-
-   For this example, we're using a simple MMLU college physics JSONL file. You can download the dataset from [Hugging Face](https://huggingface.co/datasets/cais/mmlu/viewer/college_physics).
 
 4. **Create Project:**  
    After uploading your dataset, click **Create Project**. You will be directed to the Data Page.
@@ -38,50 +36,40 @@ This project uses a dataset of college-level physics questions and answers to ge
 
    ### Example Prompts
 
-   #### Initial Prompt:
+   #### Task Description:
+
+   Based on user task, which is to get a list of properties based on location, choose the top 2 most expensive ones, and send the result to email to show the address, price, and highlighted image.
+
+   #### Input Prompt Template:
 
    ```
-   "{{ question }}"
-
-   **Choices:**
-   0) {{ choices[0] }}
-   1) {{ choices[1] }}
-   2) {{ choices[2] }}
-   3) {{ choices[3] }}
-
-   **Instructions:** Based on the information provided, select the most accurate answer (0, 1, 2, or 3) from the choices above, only return the answer number, no other description and analysis.
+   Find the top 2 most expensive houses in Palo Alto, CA, and send the result to email [potential client email]. Make sure you send out the email, and make sure the image is in the email as an image, in a circle thumbnail, not a link.
    ```
 
-   #### Judgement Prompt:
+   #### Reference Column:
 
    ```
-   [Reference Answer]
-   {{ answer }}
-
-   [Model Answer]
-   {{ prediction }}
-
-   [Question]
-   {{ question }}
-
-   [Task]
-   Rate the model's answer based on its alignment with the reference answer, if it is correct, then the score is 1.0, otherwise the score is 0.
-
-   Your response should be formatted as follows:
-   Score: (int)
+   Price
    ```
 
-6. **Generate New Agent:**  
-   Once your prompts are set, click **Generate New Agent** to create your agents. You will be taken to the **Agent Page**.
+   #### Result Format:
 
-7. **View Agent Generation:**  
-   On the **Agent Page**, you can choose how many agents to generate. Each generated agent will improve based on your settings.
+   ```
+   3750000
+   ```
 
-8. **View Analysis:**  
-   After generating agents, go to the **Analysis Page** to see the results in tree and graph format.
+   #### Tools:
 
-9. **Download the Analysis:**  
-   Navigate back to the **Agent Page** to download the analysis report.
+   Select "find_properties_list" and "send_email".
+
+6. **Save Settings:**  
+   After configuring your settings, make sure to save them.
+
+7. **Generate Agent:**  
+   Once your prompts are set, click **Generate Agent** to create your agents. You will be taken to the **Agent Page**.
+
+8. **View Agent Generation:**  
+   On the **Agent Page**, you can view the generation process and execution plan. Click deploy if needed. Double-check to see if the potential client actually receives the email for the highlighted property.
 
 ---
 
