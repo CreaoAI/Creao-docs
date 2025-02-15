@@ -17,11 +17,7 @@ Experience the full capabilities of Creao AI by watching our product demo. See h
 ### Watch Now
 
 Watch the product demo below to see Creao AI in action:
-<video width="600" controls>
-
-  <source src="https://drive.google.com/uc?export=download&id=1z5-_BUZDmGEfe0LmOUKhh9okOkX5DKkw" type="video/mp4" />
-  If you are unable to view the video, please try using a different browser or check your browser settings.
-</video>
+If you are unable to view the video, please try using a different browser or check your browser settings. Alternatively, you can watch the product demo by clicking [here](https://drive.google.com/uc?export=download&id=1z5-_BUZDmGEfe0LmOUKhh9okOkX5DKkw).
 
 ---
 
