@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/Creao-docs/blog","blogTitle":"Blog","authorsListPath":"/Creao-docs/blog/authors"}')}}]);
