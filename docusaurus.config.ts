@@ -60,8 +60,8 @@ const config: Config = {
         alt: "Creao Logo",
         src: "img/creao_black_logo.svg",
         width: 65,
-        href: "/",
-        target: "_self",
+        href: "https://www.creao.ai/login",
+        target: "_blank",
       },
       items: [
         {
@@ -69,6 +69,11 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Tutorial",
+        },
+        {
+          to: "/blog",
+          label: "Blog",
+          position: "left",
         },
       ],
     },
