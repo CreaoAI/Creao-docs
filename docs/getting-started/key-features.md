@@ -2,41 +2,46 @@
 sidebar_position: 4
 ---
 
-# Key Features
+# Key Features & Concepts
 
 Creao AI helps you create, optimize, and deploy agentic workflows autonomously. Below, we highlight the key features that enable you to do just that.
 
-## Tools & Resources 🛠️
+## 📁 Projects
 
-Creao AI provides a robust tools and resources registration system that defines the execution environment for the Meta Agent:
+A Project in CREAO acts as an overarching container for:
 
-- **Tools Registration**: Register custom tools and APIs that agents can utilize
-- **Resources Registration**: Configure resources like databases and external services
-- **Mock API Support**: This feature will allow you to simulate API interactions, enabling you to test and develop your workflows without needing live endpoints if you dont have any tools and resources available. It is currently under development and will be available soon. Stay tuned for updates! 🔄
+- Environments (where tools, knowledge, and mock tools are defined)
+- Agent configurations (Basic and Advanced settings)
+- Playground sessions
 
-Together, these components create a flexible environment where agents can effectively execute their workflows. The mock API capability ensures you can start building immediately, even before integrating your production tools.
+## 🌎 Environments
 
-## Workflow Creation 🧩
+An **Environment** defines which tools and knowledge bases an agent can access. You can create multiple environments under a single project—some can use real, registered tools, while others use mock tools.
 
-- **Effortless Workflow Setup**: Upload a dataset, provide a prompt, and let the Meta Agent handle the complexities of generating and executing agents.
-- **Responsive to Changes**: Update your workflow any time to integrate new data, accommodate shifting tasks, and meet fresh requirements, from creation to deployment.
+1. **Mock Tools**: Automatically generated API endpoints that simulate real-world tool behavior. CREAO creates these based on your agent’s use case, generating example schemas and sample data.
+2. **Registered Tools**: Tools you’ve integrated into CREAO via the Tool Registration process (e.g., REST APIs).
 
-## Agent Observability 👀
+## 🛠️ Agent Studio
 
-Understanding and refining workflows is key to unlocking their full potential. Creao AI equips you with the tools for visibility into every facet of the process.
+The Agent Studio is where you configure how your agent operates. It has two main areas:
 
-### Agent Generation Process
+1. **Environment Configuration Tab**: Select or create mock tools, register real tools, and associate relevant knowledge bases.
+2. **Playground Tab**:
 
-When agents are generating, our users will be able to see a modal pop up showing the generation process and detailed plan. This modal provides real-time insights into the steps being taken by the Meta Agent to create the workflow.
+- **Agent Configuration**: Basic and advanced settings for the agent (e.g., foundation model, output format, max turns, temperature).
+- **Predefined Steps**: Seed your agent with an execution plan based on a high-level task description before running actual queries.
 
-### Evaluation Score
+## 💬 Playground Chat
 
-Additionally, there's an evaluation score to benchmark the Meta Agent's performance on executing the task. This score helps you understand the effectiveness and efficiency of the generated agents, allowing for continuous improvement and optimization.
+The Playground Chat is an interactive console for testing agent behavior:
 
-## Instant Deployment 🚀
+- Each new input is treated as a separate task (multi-round conversation is not yet supported).
+- The agent will use the selected environment settings, knowledge, and tool integrations to plan and execute its actions.
 
-Once the agent has a "ready for deployment" status, users will be able to click **Deploy** in the modal. This action will deploy the agent, making it ready for use. After deployment, users can click **Invoke** to utilize the agent as an API. This feature allows seamless integration of the agent into your existing systems, enabling automated task execution through API calls.
+## 🔌 Tool Registration
 
-## Self-Improvement 🤖
+The **Tool Registration** process is where you connect external APIs to CREAO. You provide essential details (name, description, URL, request method, headers, API keys, etc.) so your agent can call these tools during execution.
 
-The Meta Agent is designed to continuously improve itself. It learns from previous generations and adjusts its approach to achieve better results. This self-improvement process allows the Meta Agent to adapt to new situations and improve over time, ensuring it always performs at its best.
+## 📚 Knowledge Management
+
+**Knowledge Management** lets you upload files or text that CREAO stores in a vector database. You can also provide URLs for CREAO to parse. This knowledge can be referenced by agents during planning or execution steps.
