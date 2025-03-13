@@ -7,22 +7,27 @@ sidebar_position: 1
 
 👋 Welcome to the official documentation for Creao AI!
 
-Ever wished you could automate your workflows without getting bogged
-down by the complexity or spending endless hours on manual setup?
-Creao AI redefines workflow creation by empowering you to design,
-optimize, and deploy intelligent workflows quickly and easily.
+CREAO is a platform that simplifies the creation, configuration, testing, and deployment of AI agents. By offering an integrated environment to register external tools, manage knowledge assets, and configure agents for various use cases, CREAO helps users quickly build and iterate on agentic workflows. Through an interactive chat-like “playground” experience, you can test each agent’s behavior, making it easy to refine executions and outputs. 🎉
 
-## How Creao AI Transforms Your Workflow
+## 🚀 Why You'll Love CREAO
 
-- **✨ Smart Automation with Proactive Planning**: Say goodbye to manual configurations! Our Meta Agent's auto-planning capabilities handle the heavy lifting, letting you concentrate on the bigger picture.
-- **📈 Self-Improving Workflows**: Your workflows continually evolve using methods like reinforcement learning, mind evolution, and long-term memory. These methods ensure that workflows adapt in real-time and consistently perform at their best.
-- **🔍 Transparent Insights**: You get to see exactly what's happening every step of the way, enabling you to make informed, data-driven decisions with confidence.
+- Seamless Agent Creation: Configure agents with minimal effort through an intuitive Agent Studio interface and create agent using natural language.
+- Mock & Real Tools: Rapidly prototype agents with generated “mock” tools, then switch to real, registered tools once ready.
+- Knowledge Integration: Provide documents, URLs, or text that CREAO can chunk and store in a vector database for use in planning and execution.
+- Configurable Environments: Use multiple environment settings in a single project to test or compare different tool or knowledge configurations.
+- Interactive Playground: Experiment with your agents’ execution logic and refine them on the fly.
 
-## What You'll Learn
+## 📚 Here's What You're Going to Master
 
-- **Create and Enhance Agentic Workflows**: Learn to build workflows that act autonomously, adapting to your needs.
-- **Leverage Auto-Planning and Observability**: Utilize Creao AI's advanced features to optimize your workflows and gain real-time insights.
-- **Instant Deployment**: Deploy your tailored workflows effortlessly and integrate them into your existing systems.
+In this guide, you will explore how to:
+
+- Create and manage projects and environments.
+- Set up mock tools for rapid prototyping.
+- Register real tools to connect external APIs.
+- Upload and manage knowledge in a vector database.
+- Configure agents with advanced settings.
+- Test agent execution in the Playground Chat.
+- Troubleshoot common issues and apply best practices.
 
 ## Ready to Get Started?
 
