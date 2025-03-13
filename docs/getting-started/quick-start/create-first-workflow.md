@@ -30,4 +30,4 @@ That’s it! You’ve quickly created and tested a simple weather agent using mo
 
 ## Next Steps
 
-- Explore advanced features in our [How-To Guides](/docs/how-to-guide/sign-in.md).
+- Explore advanced features in our [How-To Guides](/docs/how-to-guide/advance-use-case).
