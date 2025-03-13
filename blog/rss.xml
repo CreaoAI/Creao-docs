@@ -4,84 +4,35 @@
         <title>Creao Blog</title>
         <link>https://creaoai.github.io/Creao-docs/blog</link>
         <description>Creao Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://creaoai.github.io/Creao-docs/blog/welcome</link>
-            <guid>https://creaoai.github.io/Creao-docs/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+            <title><![CDATA[Rethinking Agent Design: The Path to Truly Scalable AI Systems]]></title>
+            <link>https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking Agent Design: The Path to Truly Scalable AI Systems</link>
+            <guid>https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking Agent Design: The Path to Truly Scalable AI Systems</guid>
+            <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[In 2019, Rich Sutton published a thought-provoking piece titled “The Bitter Lesson”, reflecting on the evolution of artificial intelligence over the past seventy years. Sutton argued compellingly that general-purpose methods leveraging massive computational power consistently outperform specialized, human-engineered approaches. This insight reshaped our understanding of how scalable AI systems could—and perhaps should—be designed.]]></description>
+            <content:encoded><![CDATA[<p>In 2019, Rich Sutton published a thought-provoking piece titled <a href="https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf" target="_blank" rel="noopener noreferrer"><em>“The Bitter Lesson”</em></a>, reflecting on the evolution of artificial intelligence over the past seventy years. Sutton argued compellingly that general-purpose methods leveraging massive computational power consistently outperform specialized, human-engineered approaches. This insight reshaped our understanding of how scalable AI systems could—and perhaps should—be designed.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-bitter-lesson-sutton-vs-brooks">The Bitter Lesson: Sutton vs. Brooks<a href="https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking%20Agent%20Design:%20The%20Path%20to%20Truly%20Scalable%20AI%20Systems#the-bitter-lesson-sutton-vs-brooks" class="hash-link" aria-label="Direct link to The Bitter Lesson: Sutton vs. Brooks" title="Direct link to The Bitter Lesson: Sutton vs. Brooks">​</a></h2>
+<p>Sutton’s vision emphasizes computation over human intuition, suggesting that progress in AI isn't about embedding our knowledge explicitly but about enabling computational systems to autonomously uncover that knowledge. Modern large language models (LLMs) such as GPT-3 and GPT-4 exemplify this principle, demonstrating generalization without explicitly programmed domain knowledge.</p>
+<p>However, Rodney Brooks provides a counter-argument, emphasizing that practical AI systems still benefit significantly from human-designed efficiencies. Brooks cites examples like Convolutional Neural Networks (CNNs), which incorporate human understanding of translational invariance into their architectures. This intelligent embedding of human insights significantly improves computational efficiency.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-modern-contradiction-human-designed-logic-loops">The Modern Contradiction: Human-Designed Logic Loops<a href="https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking%20Agent%20Design:%20The%20Path%20to%20Truly%20Scalable%20AI%20Systems#the-modern-contradiction-human-designed-logic-loops" class="hash-link" aria-label="Direct link to The Modern Contradiction: Human-Designed Logic Loops" title="Direct link to The Modern Contradiction: Human-Designed Logic Loops">​</a></h2>
+<p>Currently, AI development faces an intriguing contradiction. We've shifted from scaling neural network parameters and dataset sizes to scaling computational power during the inference phase through iterative agent workflows. Rather than relying on a single inference pass, modern AI agent workflows involve repeated cycles of planning, researching, drafting, reflecting, and revising—mirroring human cognitive processes.</p>
+<p>Yet, the logic loops that guide these agents remain human-designed, highlighting Brooks' point. This approach begs the question: Are we merely shifting the role of human design rather than eliminating it?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="balancing-computation-and-human-expertise-with-creao">Balancing Computation and Human Expertise with CREAO<a href="https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking%20Agent%20Design:%20The%20Path%20to%20Truly%20Scalable%20AI%20Systems#balancing-computation-and-human-expertise-with-creao" class="hash-link" aria-label="Direct link to Balancing Computation and Human Expertise with CREAO" title="Direct link to Balancing Computation and Human Expertise with CREAO">​</a></h2>
+<p>CREAO addresses this tension effectively, bridging Sutton’s computational vision with Brooks’ pragmatic approach. CREAO provides an integrated environment that simplifies agent creation, configuration, testing, and deployment, enabling seamless integration of computation with meaningful human insights.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="creaos-approach-to-scalable-ai">CREAO’s Approach to Scalable AI<a href="https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking%20Agent%20Design:%20The%20Path%20to%20Truly%20Scalable%20AI%20Systems#creaos-approach-to-scalable-ai" class="hash-link" aria-label="Direct link to CREAO’s Approach to Scalable AI" title="Direct link to CREAO’s Approach to Scalable AI">​</a></h3>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li><strong>Seamless Agent Creation</strong>: CREAO enables intuitive and effortless agent creation using natural language, reducing human overhead and increasing automation.</li>
+<li><strong>Continuous Iterative Improvement</strong>: With built-in iteration and refinement cycles, CREAO allows agents to improve autonomously, optimizing both computation and knowledge management.</li>
+<li><strong>Efficient Knowledge Integration</strong>: Through vector databases and external API integration, CREAO ensures that agents have rapid access to accurate, contextually relevant information.</li>
+<li><strong>Interactive and Flexible Testing</strong>: The CREAO Playground provides an interactive environment to test and refine agents dynamically, ensuring robust, adaptable designs.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://creaoai.github.io/Creao-docs/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>Facebook</category>
-            <category>Hello</category>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://creaoai.github.io/Creao-docs/blog/mdx-blog-post</link>
-            <guid>https://creaoai.github.io/Creao-docs/blog/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"button clicked!"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content:encoded>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://creaoai.github.io/Creao-docs/blog/long-blog-post</link>
-            <guid>https://creaoai.github.io/Creao-docs/blog/long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hello</category>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://creaoai.github.io/Creao-docs/blog/first-blog-post</link>
-            <guid>https://creaoai.github.io/Creao-docs/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hola</category>
-            <category>Docusaurus</category>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="towards-truly-scalable-ai">Towards Truly Scalable AI<a href="https://creaoai.github.io/Creao-docs/blog/2025/03/13/Rethinking%20Agent%20Design:%20The%20Path%20to%20Truly%20Scalable%20AI%20Systems#towards-truly-scalable-ai" class="hash-link" aria-label="Direct link to Towards Truly Scalable AI" title="Direct link to Towards Truly Scalable AI">​</a></h2>
+<p>Ultimately, the path forward isn't choosing computation over human intuition—or vice versa. Instead, truly scalable AI emerges from intelligently balancing these approaches. Platforms like CREAO exemplify this balance, empowering AI developers to build systems that are powerful, autonomous, yet guided by essential human expertise.</p>
+<p>Embracing this balanced paradigm positions us to realize the full potential of artificial intelligence, transforming ambitious visions into practical, scalable realities."</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
