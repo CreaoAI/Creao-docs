@@ -9,21 +9,10 @@ const config: Config = {
   tagline: "Revolutionizing Agentic Workflow Development",
   favicon: "img/creao_black_logo.svg",
 
-  // Set the production url of your site here
-  url: "https://creaoai.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/Creao-docs/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "CreaoAI", // Usually your GitHub org/user name.
-  projectName: "Creao-docs", // Usually your repo name.
-  deploymentBranch: "gh-pages",
-  trailingSlash: false,
-
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  // Update the URL to your custom domain
+  url: "https://creao.ai",
+  // Change the baseUrl to "/"
+  baseUrl: "/",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -39,10 +28,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "/",
+          routeBasePath: "docs",
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: "blogs",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -69,9 +59,10 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Tutorial",
+          to: "/docs",
         },
         {
-          to: "/blog",
+          to: "/blogs",
           label: "Blog",
           position: "left",
         },
