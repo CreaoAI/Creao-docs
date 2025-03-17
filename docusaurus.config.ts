@@ -14,6 +14,10 @@ const config: Config = {
   // Set baseUrl to match GitHub Pages repository path
   baseUrl: "/Creao-docs/",
 
+  // GitHub Pages deployment config
+  organizationName: "creaoai", // Usually your GitHub org/user name
+  projectName: "Creao-docs", // Usually your repo name
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
