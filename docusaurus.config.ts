@@ -9,10 +9,10 @@ const config: Config = {
   tagline: "Revolutionizing Agentic Workflow Development",
   favicon: "img/creao_black_logo.svg",
 
-  // Update the URL to your custom domain
-  url: "https://creao.ai",
-  // Change the baseUrl to "/"
-  baseUrl: "/",
+  // Update the URL to your GitHub Pages URL
+  url: "https://creaoai.github.io",
+  // Set baseUrl to match GitHub Pages repository path
+  baseUrl: "/Creao-docs/",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -76,7 +76,7 @@ const config: Config = {
           items: [
             {
               label: "Tutorial",
-              to: "/",
+              to: "/docs",
             },
           ],
         },
