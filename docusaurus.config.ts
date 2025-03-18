@@ -12,7 +12,7 @@ const config: Config = {
   // Update the URL to your GitHub Pages URL
   url: "https://creaoai.github.io",
   // Set baseUrl to match GitHub Pages repository path
-  baseUrl: "/",
+  baseUrl: "/docs/",
 
   // GitHub Pages deployment config
   organizationName: "creaoai", // Usually your GitHub org/user name
@@ -32,7 +32,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "docs",
+          routeBasePath: "tutorials",
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +63,7 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Tutorial",
-          to: "/docs",
+          to: "/tutorials",
         },
         {
           to: "/blogs",
@@ -76,11 +76,11 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Tutorials",
           items: [
             {
               label: "Tutorial",
-              to: "/docs",
+              to: "/tutorials",
             },
           ],
         },
