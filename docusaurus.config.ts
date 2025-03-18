@@ -12,7 +12,7 @@ const config: Config = {
   // Update the URL to your GitHub Pages URL
   url: "https://creaoai.github.io",
   // Set baseUrl to match GitHub Pages repository path
-  baseUrl: "/Creao-docs/",
+  baseUrl: "/",
 
   // GitHub Pages deployment config
   organizationName: "creaoai", // Usually your GitHub org/user name
