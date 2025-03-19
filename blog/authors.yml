@@ -21,3 +21,13 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+cgao:
+  name: Clark Gao
+  title: Co-founder @ CREAO AI  
+  # url: https://github.com/yangshun
+  image_url: https://avatars.githubusercontent.com/u/183706205?s=400&u=61e24b15a5b8088efce31d4ba73f6e2e7619a092&v=4
+  page: true
+  socials:
+    x: GaoClark
+    linkedin: clark-qingzhu-gao
