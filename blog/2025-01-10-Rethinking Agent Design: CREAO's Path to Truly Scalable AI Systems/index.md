@@ -2,7 +2,7 @@
 title: "Rethinking Agent Design: CREAO's Path to Truly Scalable AI Systems"
 authors:
   - cgao
-date: 2025-03-13
+date: 2025-01-10
 ---
 In 2019, Rich Sutton published a thought-provoking piece titled [*“The Bitter Lesson”*](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf), reflecting on the evolution of artificial intelligence over the past seventy years. Sutton argued compellingly that general-purpose methods leveraging massive computational power consistently outperform specialized, human-engineered approaches. This insight reshaped our understanding of how scalable AI systems could—and perhaps should—be designed.
 
